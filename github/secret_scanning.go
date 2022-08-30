@@ -61,6 +61,8 @@ type SecretScanningAlertListOptions struct {
 	Resolution string `url:"resolution,omitempty"`
 
 	ListCursorOptions
+	
+	ListOptions
 }
 
 // SecretScanningAlertUpdateOptions specifies optional parameters to the SecretScanningService.UpdateAlert method.
